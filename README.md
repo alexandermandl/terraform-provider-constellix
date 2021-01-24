@@ -25,8 +25,10 @@ $ make build
 
 Using The Provider
 ------------------
-If you are building the provider, follow the instructions to [install it as a plugin.](https://www.terraform.io/docs/plugins/basics.html#installing-a-plugin) After placing it into your plugins directory, run `terraform init` to initialize it.
-
+If you are building the provider, follow the instructions to :
+Installing Plugins
+Third-party plugins (both providers and provisioners) can be manually installed into the user plugins directory, located at %APPDATA%\terraform. d\plugins on Windows and ~/. terraform. d/plugins on other systems.
+After placing it into your plugins directory, run `terraform init` to initialize it.
 ex.
 ```hcl
 #configure provider with your Constellix  credentials.
